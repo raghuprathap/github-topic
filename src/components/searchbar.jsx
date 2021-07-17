@@ -22,7 +22,7 @@ const SearchBar = props => {
         <button
           className="btn btn-outline-success my-2 my-sm-0"
           type="submit"
-          onClick={() => this.props.onSearchChange(searchTerm)}
+          onClick={() => props.onSearchChange(searchTerm)}
         >
           Search
         </button>
